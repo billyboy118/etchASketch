@@ -1,0 +1,68 @@
+
+
+
+body {
+    background-image: url("background.jpg");
+    background-size: 100%;
+   
+
+}
+#header {
+    text-align: center;
+    font: 70px Arial, sans-serif;
+    margin-bottom: 10px;
+    
+}
+.buttonCont {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.buttons {
+    height: 30px;
+    width: 60px;
+    margin: 10px;
+}
+#random {
+    font-size: 10px;
+}
+
+.cont { 
+    margin: 0 auto ;
+    border: 5px solid black;
+    height: 650px;
+    width: 650px;
+    display: grid;
+    grid-gap: 0px;
+    background-color: white;
+
+}
+#container{
+    grid-template-columns: repeat(var(--colNum),auto);
+    grid-template-rows: repeat(var(--rowNum),auto);
+}
+.baulk {
+    height: 50px;
+}
+
+.gridSquares {
+    border: 1px solid black;
+   height: auto;
+    width: auto;
+
+
+
+    
+}
+
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: grey;
+    text-align: center;
+
+
+}
