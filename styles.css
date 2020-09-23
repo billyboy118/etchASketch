@@ -4,6 +4,7 @@
 body {
     background-image: url("background.jpg");
     background-size: 100%;
+    
    
 
 }
@@ -47,9 +48,11 @@ body {
 
 .gridSquares {
     border: 1px solid black;
+    
    height: auto;
     width: auto;
-
+    
+    
 
 
     
